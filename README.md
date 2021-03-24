@@ -124,6 +124,7 @@ Currently, there is no existing Amazon Fsx for Windows File server Container Sto
    ```
    
 8. Confirm the mount and created sample files are accessible within the Fsx windows server
+
    ![image](https://user-images.githubusercontent.com/6791436/112352107-67537980-8cc2-11eb-94b6-7b1c8c2f086f.png)
 
 # Cleanup
