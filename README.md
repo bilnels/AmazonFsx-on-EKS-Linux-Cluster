@@ -127,6 +127,10 @@ Currently, there is no existing Amazon Fsx for Windows File server Container Sto
 
    ![image](https://user-images.githubusercontent.com/6791436/112352107-67537980-8cc2-11eb-94b6-7b1c8c2f086f.png)
 
+# Conclusion
+
+Following the above steps you will be able to configure your EKS Linux Cluster pods to mount a volume through an SMB share hosted in Amazon FSx for Windows File Server. The approach of data persistence will be suitable for legacy example ASP.NET applications which provides data other cloud native apps are dependant on.
+
 # Cleanup
-Once completed, make sure to delete the resource created
+Once completed, make sure to delete the resources created post-testing
 
