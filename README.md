@@ -1,4 +1,4 @@
-# Using Amazon FSx for Windows File Server on EKS Linux
+# Using Amazon FSx for Windows File Server on EKS Linux Cluster
 Currently, there is no existing Amazon Fsx for Windows File server Container Storage Interface (CSI ) Driver that provides a CSI interface that allows Amazon EKS clusters in Linux to manage the lifecycle of Amazon FSx for Windows File server file systems. Today, we are going to walk through a step-by-step process on how to deploy *csi-driver-smb* CSI Driver to allow using Amazon FSx for Windows File Server as persistent storage for Linux containers running on running on Amazon Elastic Kubernetes Service (EKS) and verify that it works. We recommend using latest version [CSI Driver](https://github.com/kubernetes-csi/csi-driver-smb) of the driver.
 
 
